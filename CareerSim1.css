@@ -1,0 +1,72 @@
+.tippytop {text-align: center;
+font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: blanchedalmond;}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.Networking {border: 2px solid black;
+   margin: 8%;
+   padding: 50px;
+   height: 100vh;
+   background-image: url(Imagescs1/000036740008.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+#instaplug {
+   position: relative;
+   top: 35em;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(186, 67, 23);
+    color: white}
+
+.about-div {
+    margin: 20px
+}
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%
+}
+#about-text {
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+}
+#about-pic {
+    border: 2px solid black;
+    height: 50vh;
+    margin-right: 15%;
+    text-align: center;
+}
+#about-pic2 {
+    border: 2px solid black;
+    height: 50vh;
+    margin-left: 15%;  
+}
+
+#portfolio-heading {
+    margin-left: 25%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.scroller {
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 900px;
+    width: 85vh;
+    margin: auto;
+}
+.images-container{
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+}
+.images-container img {
+    border: 2px solid black;
+    height: 300px;
+}
