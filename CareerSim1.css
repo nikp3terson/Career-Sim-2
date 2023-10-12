@@ -7,12 +7,16 @@ a:hover {
     opacity: 80%;
 }
 
+#home-body {
+    background-color: aqua;
+}
 body {
-    background-color: blanchedalmond;
+    background-color: blanchedalmond !important;
 }
 
 .Networking {
    border: 2px solid black;
+   text-align: center;
    margin-top: 5%;
    margin-left: 8%;
    margin-right: 8%;
@@ -24,11 +28,15 @@ background-size: cover;
 background-position: center;
 }
 #instaplug {
-   position: relative;
-   top: 35em;
+    position: relative;
+    top: 85%;
+
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(186, 67, 23);
     color: white}
+#instaplug:hover {
+    transform: scale(1.5);
+}
 
 .about-div {
     justify-content: center;
@@ -76,6 +84,7 @@ h3 {
     width: 85vh;
     margin: auto;
 }
+
 .images-container{
     display: flex;
     gap: 40px;
@@ -85,6 +94,7 @@ h3 {
     border: 2px solid black;
     height: 300px;
 }
+
 
 form {
     color: white;
