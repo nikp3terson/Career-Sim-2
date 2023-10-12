@@ -6,8 +6,11 @@ body {
     background-color: blanchedalmond;
 }
 
-.Networking {border: 2px solid black;
-   margin: 8%;
+.Networking {
+   border: 2px solid black;
+   margin-top: 5%;
+   margin-left: 8%;
+   margin-right: 8%;
    padding: 50px;
    height: 100vh;
    background-image: url(Imagescs1/000036740008.jpg);
@@ -78,9 +81,8 @@ form {
     margin-right: 15%;
     border: 2px solid black;
     background-image: url(Imagescs1/000096040009.jpg);
-    background-size: 110%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat:repeat-y
 }
 
 
