@@ -1,6 +1,11 @@
 .tippytop {text-align: center;
 font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 background-color: blanchedalmond;}
+a:hover {
+    color: crimson;
+    background-color: black;
+    opacity: 80%;
+}
 
 body {
     background-color: blanchedalmond;
@@ -26,8 +31,8 @@ background-position: center;
     color: white}
 
 .about-div {
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    margin-left: 20%;
 }
 #about {
     font-family: 'Courier New', Courier, monospace; 
@@ -37,8 +42,10 @@ background-position: center;
     font-family: 'Courier New', Courier, monospace;
 }
 .flex-container {
+    justify-content: center;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
     display: flex;
     flex-direction: row;
     gap: 5%;
@@ -105,4 +112,8 @@ form h3 {
 }
 #submit {
     margin-bottom: 10%;
+}
+#submission-message {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
