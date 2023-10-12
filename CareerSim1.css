@@ -26,27 +26,32 @@ background-position: center;
     color: white}
 
 .about-div {
-    margin: 20px
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #about {
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 15%
+    font-family: 'Courier New', Courier, monospace; 
 }
 #about-text {
     margin-top: 5px;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 15%;
+}
+.flex-container {
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    
 }
 #about-pic {
     border: 2px solid black;
     height: 50vh;
-    margin-right: 15%;
     text-align: center;
 }
 #about-pic2 {
     border: 2px solid black;
-    height: 50vh;
-    margin-left: 15%;  
+    height: 50vh; 
 }
 
 #portfolio-heading {
@@ -82,14 +87,21 @@ form {
     border: 2px solid black;
     background-image: url(Imagescs1/000096040009.jpg);
     background-size: 100%;
+    background-position: center;
     background-repeat:repeat-y
 }
 
-
+form h1 {
+    background-color: black;
+    opacity: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+}
 form h3 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: black !important;
+    opacity: 60%;
 }
 #submit {
     margin-bottom: 10%;
