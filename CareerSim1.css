@@ -70,3 +70,25 @@ h3 {
     border: 2px solid black;
     height: 300px;
 }
+
+form {
+    color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px solid black;
+    background-image: url(Imagescs1/000096040009.jpg);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+form h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black !important;
+}
+#submit {
+    margin-bottom: 10%;
+}
