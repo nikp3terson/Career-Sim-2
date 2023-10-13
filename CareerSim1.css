@@ -9,6 +9,7 @@ a:hover {
 
 #home-body {
     background-color: aqua;
+    margin-bottom: 5%;
 }
 body {
     background-color: blanchedalmond !important;
@@ -20,6 +21,7 @@ body {
    margin-top: 5%;
    margin-left: 8%;
    margin-right: 8%;
+   margin-bottom: 5%;
    padding: 50px;
    height: 100vh;
    background-image: url(Imagescs1/000036740008.jpg);
@@ -30,13 +32,9 @@ background-position: center;
 #instaplug {
     position: relative;
     top: 85%;
-
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(186, 67, 23);
     color: white}
-#instaplug:hover {
-    transform: scale(1.5);
-}
 
 .about-div {
     justify-content: center;
@@ -54,10 +52,10 @@ background-position: center;
     position: absolute;
     margin-left: 20%;
     margin-right: 10%;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: row;
     gap: 5%;
-    
 }
 #about-pic {
     border: 2px solid black;
@@ -67,6 +65,7 @@ background-position: center;
 #about-pic2 {
     border: 2px solid black;
     height: 50vh; 
+    margin-bottom: 5%;
 }
 
 #portfolio-heading {
@@ -93,8 +92,8 @@ h3 {
 .images-container img {
     border: 2px solid black;
     height: 300px;
+    margin-bottom: 5%;
 }
-
 
 form {
     color: white;
